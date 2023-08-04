@@ -4,7 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button, SimpleGrid, Card, CardHeader, Heading, CardBody, CardFooter, Text } from '@chakra-ui/react'
 import BadgeStylized from '@/app/components/BadgeStylized'
-import avatarHyngrid from '../../public/images/avatar-Hyngrid.jpg'
+import iWoman from '../../public/images/woman_code.png'
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
               Fico feliz em recebê-la(o) no meu site. Mesmo estando em construção tenho alguns conteúdos para mostrar.
               Navegue pelas páginas e descubra mais sobre mim.</p>
           </div>
-            <Image src={avatarHyngrid} width={250} height={250} alt="Foto perfil Hyngrid" className="rounded-full" />
+            <Image src={iWoman} width={260} height={260} alt="Foto perfil Hyngrid" />
         </section>
 
         <section className="flex flex-col p-4 justify-center items-center bg-gray-800 mb-4">
