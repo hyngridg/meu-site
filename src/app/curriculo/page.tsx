@@ -9,8 +9,7 @@ import { Accordion,
 import { Box, Tabs, TabList, TabPanels, Tab, TabPanel,
           Card, CardBody, Link, Text, Badge } from '@chakra-ui/react'
 
-import { GraduationCap, FileCode2,
-          User, UserCheck, ScrollText, BookOpen, Link as LinkIcon, FileClock, Braces} from 'lucide-react'
+import { GraduationCap, User, UserCheck, ScrollText, BookOpen, Link as LinkIcon, FileClock, Braces} from 'lucide-react'
 import CardIconStylized from '@/app/components/CardIconStylized'
 
   
@@ -45,10 +44,13 @@ export default function PageCurriculo() {
                   <h2>
                     <AccordionButton className='bg-white'>
                       <Box as="div" flex='1' textAlign='left' className='flex items-center gap-2'>
-                        <UserCheck className='text-pink-600'/><span className='font-semibold text-md'>Desenvolvedora Front-end,</span>
-                        <span className='text-gray-500'>TI | Freelancer | Atual</span> 
+                        <UserCheck className='text-pink-600'/>
+                        <div className='flex flex-wrap'>
+                          <span className='font-semibold text-md'>Desenvolvedora Front-end,</span>
+                          <span className='text-gray-500'>TI | Freelancer | Atual</span>
+                        </div>
                       </Box>
-                      <AccordionIcon/>
+                      <AccordionIcon className="text-blue-700 bg-blue-100 p-1 box-border w-8 h-8 rounded-md"/>
                     </AccordionButton>
                   </h2>
                   <AccordionPanel pb={4}>
@@ -65,10 +67,13 @@ export default function PageCurriculo() {
                     <h2>
                       <AccordionButton className='bg-white'>
                         <Box as="div" flex='1' textAlign='left' className='flex items-center gap-2'>
-                        <User className='text-pink-600'/><span className='font-semibold text-md'>Analista Sênior, Web Designer,</span>
-                          <span className='text-gray-500'>TI | Ecad | 2012 - 2022</span> 
+                          <User className='text-pink-600'/>
+                          <div className='flex flex-wrap'>
+                            <span className='font-semibold text-md'>Analista Sênior, Web Designer,</span>
+                            <span className='text-gray-500'>TI | Ecad | 2012 - 2022</span>
+                          </div> 
                         </Box>
-                        <AccordionIcon/>
+                        <AccordionIcon className="text-blue-700 bg-blue-100 p-1 box-border w-8 h-8 rounded-md"/>
                       </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
@@ -91,10 +96,13 @@ export default function PageCurriculo() {
                     <h2>
                       <AccordionButton className='bg-white'>
                         <Box as="div" flex='1' textAlign='left' className='flex items-center gap-2'>
-                        <User className='text-pink-600'/><span className='font-semibold text-md'>Estagiária de Desenvolvimento,</span>
-                        <span className='text-gray-500'>TI | Minds At Work | 2009 - 2010</span>
+                          <User className='text-pink-600'/>
+                          <div className='flex flex-wrap'>
+                            <span className='font-semibold text-md'>Estagiária de Desenvolvimento,</span>
+                            <span className='text-gray-500'>TI | Minds At Work | 2009 - 2010</span>
+                          </div>
                         </Box>
-                        <AccordionIcon/>
+                        <AccordionIcon className="text-blue-700 bg-blue-100 p-1 box-border w-8 h-8 rounded-md"/>
                       </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
@@ -116,10 +124,13 @@ export default function PageCurriculo() {
                     <h2>
                       <AccordionButton className='bg-white'>
                         <Box as="div" flex='1' textAlign='left' className='flex items-center gap-2' >
-                        <User className='text-pink-600'/><span className='font-semibold text-md'>Estagiária de Técnico em Informática,</span>
-                        <span className='text-gray-500'>TI | Petrobras, BR | 2008 - 2009</span>
+                          <User className='text-pink-600'/>
+                          <div className='flex flex-wrap'>
+                            <span className='font-semibold text-md'>Estagiária de Técnico em Informática,</span>
+                            <span className='text-gray-500'>TI | Petrobras, BR | 2008 - 2009</span>
+                          </div>
                         </Box>
-                        <AccordionIcon/>
+                        <AccordionIcon className="text-blue-700 bg-blue-100 p-1 box-border w-8 h-8 rounded-md"/>
                       </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
@@ -183,9 +194,10 @@ export default function PageCurriculo() {
 
             <section>
               <h2 className='text-pink-600 font-semibold text-xl mt-6 mb-2'>FERRAMENTAS E TECNOLOGIAS</h2>
-              <Card>
+              <Card className=''>
                 <CardBody>
-                  <Tabs>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque corrupti et laboriosam delectus aut, vitae sit ratione dolor commodi facere omnis sequi natus velit totam est, ipsa similique. Repudiandae, hic!</p>
+                  <Tabs className='max-w-full scroll-auto scroll-ml-6 scroll-p-8 md:scroll-p-0'>
                     <TabList>
                       <Tab>Design</Tab>
                       <Tab>Programação</Tab>

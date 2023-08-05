@@ -25,7 +25,7 @@ export default function RootLayout({
         <Providers>
             <BtnFloat />
             <Navbar />
-            <main className="flex flex-1">
+            <main className="flex flex-wrap w-full">
               {children}
             </main>
             <Footer />

@@ -10,20 +10,20 @@ export default function Home() {
   return (
     <>
     <div className="flex flex-col flex-grow">
-        <section className="flex flex-row justify-center items-center p-4">
-          <div className="flex flex-col flex-wrap justify-between md:w-96 pr-4">
+        <section className="flex flex-row flex-wrap justify-center items-center p-4">
+          <div className="flex flex-col flex-wrap justify-between w-full order-2 md:order-1 md:w-96 pr-4">
             <h1 className="font-semibold text-2xl mb-4">Prazer, sou a Hyngrid.</h1>
             <p className="text-gray-600 mb-2">
               Minha paixão é desenvolver projetos front-end que proporcionam boas experiências digitais na web.</p>
             <p className="text-gray-600">
-              Fico feliz em recebê-la(o) no meu site. Mesmo estando em construção tenho alguns conteúdos para mostrar.
-              Navegue pelas páginas e descubra mais sobre mim.</p>
+              Fico feliz por tê-lo(a) visitando o meu site, que está em fase de construção, mas já tenho alguns conteúdos para compartilhar.
+              Navegue pelas páginas e descubra mais sobre mim.❤️</p>
           </div>
-            <Image src={iWoman} width={260} height={260} alt="Foto perfil Hyngrid" />
+            <Image src={iWoman} width={260} height={260} alt="Foto perfil Hyngrid" className="order-1 md:order-2" />
         </section>
 
         <section className="flex flex-col p-4 justify-center items-center bg-gray-800 mb-4">
-          <q className="max-w- text-lg text-gray-400">Atualmente estudo programação enquanto me desafio, me divirto e subo de nível dia após dia.</q>
+          <q className="md:w-1/2 text-center text-lg text-gray-400">Estudo programação enquanto me desafio, me divirto e subo de nível dia após dia.</q>
           <cite className="text-gray-400">Hyngrid S Gradizzi</cite>
         </section>
 

@@ -4,7 +4,7 @@ import BadgeStylized from '@/app/components/BadgeStylized'
 export default function Aside() {
     return (
         <>
-            <aside className="w-72 bg-gray-800 text-gray-400 p-4">
+            <aside className="w-full lg:w-72 p-4 order-2 lg:order-1 bg-gray-800 text-gray-400 flex flex-col">
                 <h2 className='text-pink-600 font-semibold text-xl mb-2'>SOFT SKILLS</h2>
                 <ul className='list-disc pl-6'>
                     <li>Criatividade</li>

@@ -14,7 +14,7 @@ export default function CurriculoLayout({
     return (
       <>
         <Aside />
-        <div className="flex-1 p-4">
+        <div className="p-4 order-1 lg:order-2 lg:flex-1 w-full">
           {children}
         </div>
       </>
