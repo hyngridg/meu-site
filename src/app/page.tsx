@@ -16,14 +16,14 @@ export default function Home() {
             <p className="text-gray-600 mb-2">
               Minha paixão é desenvolver projetos front-end que proporcionam boas experiências digitais na web.</p>
             <p className="text-gray-600">
-              Fico feliz por tê-lo(a) visitando o meu site, que está em fase de construção, mas já tenho alguns conteúdos para compartilhar.
-              Navegue pelas páginas e descubra mais sobre mim.❤️</p>
+              Fico feliz por tê-lo(a) visitando o meu site que está em fase de construção. Aproveite para ver meu currículo 
+              <Link href="./curriculo" className="text-blue-700"> aqui</Link> e conhecer um pouco sobre minha trajetória.❤️</p>
           </div>
             <Image src={iWoman} width={260} height={260} alt="Foto perfil Hyngrid" className="order-1 md:order-2" />
         </section>
 
         <section className="flex flex-col p-4 justify-center items-center bg-gray-800 mb-4">
-          <q className="md:w-1/2 text-center text-lg text-gray-400">Estudo programação enquanto me desafio, me divirto e subo de nível dia após dia.</q>
+          <q className="md:w-1/2 text-center text-lg text-gray-400">Estudo programação enquanto me desafio, me divirto e evoluo dia após dia.</q>
           <cite className="text-gray-400">Hyngrid S Gradizzi</cite>
         </section>
 

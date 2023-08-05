@@ -19,13 +19,8 @@ export default function PageCurriculo() {
         <>
           <p className='text-gray-600 text-justify'>
             Tenho mais de 10 anos de experiência em projetos Web atuando como Analista Sênior Web Designer. Atualmente exerço a função de Desenvolvedora Front-end.<br/>
-            Minha expertise está na junção das áreas de Design e Tecnologia de Informação, onde busco oferecer meu melhor como profissional.<br/>
-            Meu objetivo é trabalhar como Desenvolvedora Front-end, combinando habilidades criativas, autogerenciamento e facilidade em aprender novas tecnologias.<br/>
-            Recentemente criei meu portfólio online no GitHub pois estou reciclando conhecimentos. Está em construção mas já divulgo por aqui para expandir minha rede profissional, colaborando e recebendo feedbacks com a comunidade.
-            <span className='inline-block pl-2'>
-            <Link className='flex gap-2 items-center text-blue-700' href='https://github.com/hyngridg' isExternal> Clique aqui<LinkIcon className='w-4 h-4' /></Link>
-            </span>
-            </p>
+            Minha expertise está na junção das áreas de Design e Tecnologia de Informação, onde busco oferecer meu melhor como profissional.
+          </p>
             
             <section>
               <h2 className='text-pink-600 font-semibold text-xl mt-6 mb-2'>FORMAÇÃO ACADÊMICA</h2>
@@ -196,7 +191,6 @@ export default function PageCurriculo() {
               <h2 className='text-pink-600 font-semibold text-xl mt-6 mb-2'>FERRAMENTAS E TECNOLOGIAS</h2>
               <Card className=''>
                 <CardBody>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque corrupti et laboriosam delectus aut, vitae sit ratione dolor commodi facere omnis sequi natus velit totam est, ipsa similique. Repudiandae, hic!</p>
                   <Tabs className='max-w-full scroll-auto scroll-ml-6 scroll-p-8 md:scroll-p-0'>
                     <TabList>
                       <Tab>Design</Tab>
@@ -239,6 +233,7 @@ export default function PageCurriculo() {
                         </ul>
                       </TabPanel>
                       <TabPanel>
+                        <p className='pl-[-16px]'>Sistemas de gerenciamento de conteúdo:</p>
                         <ul className='list-disc'>
                           <li>Microsoft SharePoint</li>
                           <li>WordPress</li>
@@ -257,9 +252,24 @@ export default function PageCurriculo() {
                       <TabPanel>
                         <ul className='list-disc'>
                           <li>MindManager</li>
-                          <li>Office 365</li>
                           <li>Trello</li>
+                          <li>
+                            <ul className='list-disc' style={{listStyleType: 'circle'}}>
+                              <li style={{listStyleType: 'none'}}>Office 365</li>
+                              <li>Outlook</li>
+                              <li>Microsoft Teams</li>
+                              <li>SharePoint</li>
+                              <li>Word</li>
+                              <li>Excel</li>
+                              <li>PowerPoint</li>
+                              <li>OneNote</li>
+                              <li>OneDrive</li>
+                              <li>Planner</li>
+                              <li>Yammer</li>
+                            </ul>
+                          </li>
                         </ul>
+                        
                       </TabPanel>
                     </TabPanels>
                   </Tabs>
