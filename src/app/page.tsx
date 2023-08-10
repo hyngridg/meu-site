@@ -15,6 +15,7 @@ export default function Home() {
             <h1 className="font-semibold text-2xl mb-4">Prazer, sou a Hyngrid.</h1>
             <p className="text-gray-600 mb-2">
               Minha paixão é desenvolver projetos front-end que proporcionam boas experiências digitais na web.</p>
+            <p className="text-gray-600 mb-2">Estou me capacitando profissionalmente para ser uma Desenvolvedora Full Stack.</p>
             <p className="text-gray-600">
               Fico feliz por tê-lo(a) visitando o meu site que está em fase de construção. Aproveite para ver meu currículo 
               <Link href="./curriculo" className="text-blue-700"> aqui</Link> e conhecer um pouco sobre minha trajetória.❤️</p>
