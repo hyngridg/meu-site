@@ -60,13 +60,31 @@ profissional Full Stack.
                   </AccordionPanel>
                 </AccordionItem>
                   
+                <AccordionItem>
+                    <h2>
+                      <AccordionButton className='bg-white'>
+                        <Box as="div" flex='1' textAlign='left' className='flex items-center gap-2'>
+                          <User className='text-pink-600'/>
+                          <div className='flex flex-wrap'>
+                            <span className='font-semibold text-md'>Transição de carreira</span>
+                            <span className='text-gray-500'>| 2022 - 2023</span>
+                          </div> 
+                        </Box>
+                        <AccordionIcon className="text-blue-700 bg-blue-100 p-1 box-border w-8 h-8 rounded-md"/>
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4}>
+                      <p>Transição de carreira e maternidade em tempo integral.</p>
+                    </AccordionPanel>
+                  </AccordionItem>
+
                   <AccordionItem>
                     <h2>
                       <AccordionButton className='bg-white'>
                         <Box as="div" flex='1' textAlign='left' className='flex items-center gap-2'>
                           <User className='text-pink-600'/>
                           <div className='flex flex-wrap'>
-                            <span className='font-semibold text-md'>Analista II, Front-end,</span>
+                            <span className='font-semibold text-md'>Analista II, Web Designer,</span>
                             <span className='text-gray-500'>TI | Ecad | 2012 - 2022</span>
                           </div> 
                         </Box>
@@ -150,17 +168,17 @@ usuários.</p>
                 <h2 className='text-pink-600 font-semibold text-xl mt-6 mb-2'>CERTIFICADOS RECENTES</h2>
                   <Card>
                     <CardBody className='space-y-2'>
-                      <Link className='flex gap-2 text-blue-700' href='https://www.origamid.com/certificate/1c5ae08c' isExternal>
-                        <ScrollText className='text-pink-600' />Bootstrap 4
+                      <Link className='flex gap-2 text-blue-700 items-center' href='https://euprogramo.thinkific.com/certificates/fupjofzqji' isExternal>
+                        <ScrollText className='text-pink-600' />Back-End | Minha primeira API <Badge colorScheme='pink'>PrograMaria</Badge>
                       </Link>
-                      <Link className='flex gap-2 text-blue-700' href='https://www.origamid.com/certificate/2c366e2f' isExternal>
-                        <ScrollText className='text-pink-600' />CSS com SASS
+                      <Link className='flex gap-2 text-blue-700 items-center' href='https://cursos.alura.com.br/certificate/2d975fce-864f-4aca-8f3d-76fa25937918?lang=pt_BR' isExternal>
+                        <ScrollText className='text-pink-600' />React: Desenvolvendo com Javascript <Badge colorScheme='pink'>Alura</Badge>
                       </Link>
-                      <Link className='flex gap-2 text-blue-700' href='https://www.origamid.com/certificate/e911b997' isExternal>
-                        <ScrollText className='text-pink-600' />CSS Grid Layout
+                      <Link className='flex gap-2 text-blue- items-center' href='https://drive.google.com/file/d/1-8paK4EUCunNoRQXg4REce9F5ROT0eLr/view?usp=sharing' isExternal>
+                        <ScrollText className='text-pink-600' />Desenvolvimento Web <Badge colorScheme='pink'>Rocketseat + Potência Tech</Badge>
                       </Link>
-                      <Link className='flex gap-2 text-blue-700' href='https://www.origamid.com/certificate/3b3ced05' isExternal>
-                        <ScrollText className='text-pink-600' />CSS Flexbox
+                      <Link className='flex gap-2 text-blue-700 items-center' href='https://drive.google.com/file/d/153iFhP8JlkbRDaY-CVNBgcqs2N23soKg/view?usp=sharing' isExternal>
+                        <ScrollText className='text-pink-600' />Fundamentos de Lógica de Programação <Badge colorScheme='pink'>Fundação Bradesco</Badge>
                       </Link>
                       
                     </CardBody>
