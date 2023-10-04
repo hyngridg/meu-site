@@ -25,7 +25,7 @@ export default function NavBar() {
                     <Link href="/">Home</Link>
                     <Link href="./curriculo">Currículo</Link>
                     <Tooltip label='Baixar currículo' placement='bottom-end'>
-                        <Link href="./Curriculo_HyngridSoaresGradizzi_DevFrontEnd.pdf" target="_blank"><ArrowDownToLine/></Link>
+                        <Link href="./Curriculo_HyngridSGradizzi.pdf" target="_blank"><ArrowDownToLine/></Link>
                     </Tooltip>
                     <Tooltip label='GitHub' placement='bottom-end'>
                         <Link href="https://github.com/hyngridg" target="_blank"><GithubIcon/></Link>

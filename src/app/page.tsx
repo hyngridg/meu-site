@@ -17,7 +17,7 @@ export default function Home() {
               Minha paixão é desenvolver projetos front-end que proporcionam boas experiências digitais na web.</p>
             <p className="text-gray-600 mb-2">Estou me capacitando profissionalmente para ser uma Desenvolvedora Full Stack.</p>
             <p className="text-gray-600">
-              Fico feliz por tê-lo(a) visitando o meu site que está em fase de construção. Aproveite para ver meu currículo 
+              Fico feliz por tê-lo(a) visitando o meu site. Aproveite para ver meu currículo 
               <Link href="./curriculo" className="text-blue-700"> aqui</Link> e conhecer um pouco sobre minha trajetória.❤️</p>
           </div>
             <Image src={iWoman} width={260} height={260} alt="Foto perfil Hyngrid" className="order-1 md:order-2" />

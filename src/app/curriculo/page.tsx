@@ -18,14 +18,18 @@ export default function PageCurriculo() {
   return (
         <>
           <p className='text-gray-600 text-justify'>
-            Tenho mais de 10 anos de experiência em projetos Web atuando como Analista Sênior Web Designer. Atualmente exerço a função de Desenvolvedora Front-end.<br/>
-            Minha expertise está na junção das áreas de Design e Tecnologia de Informação, onde busco oferecer meu melhor como profissional.
+          Tenho uma carreira de mais de 10 anos de experiência, onde desenvolvi competências com foco em
+Desenvolvimento Front-end, atuando em redesign, automação, atualizações tecnológicas e
+implementação de IA em aplicações web responsivas. Minha abordagem é centrada na excelência
+técnica moderna e no comprometimento com resultados inovadores.
+Estudante de tecnologias atuais em renomadas plataformas virtuais com objetivo de ser uma
+profissional Full Stack.
           </p>
             
             <section>
               <h2 className='text-pink-600 font-semibold text-xl mt-6 mb-2'>FORMAÇÃO ACADÊMICA</h2>
               <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-6'>
-                <CardIconStylized icon={<BookOpen/>} title="PÓS TECH Coding & Tech Journey from User to Creator" subtitle="FIAP + Alura | " badge={true} textBadge="Em breve" />
+                <CardIconStylized icon={<BookOpen/>} title="Pós-graduação em Desenvolvimento Full Stack" subtitle="XP Educação | " badge={true} textBadge="Em breve" />
                 <CardIconStylized icon={<GraduationCap/>} title="Bacharel em Desenho Industrial" subtitle="Estácio | 2012 - 2016" badge={false} />
                 <CardIconStylized icon={<GraduationCap/>} title="Técnico em Informática" subtitle="Colégio 1° de Maio | 2006 - 2008" badge={false} />
                 <CardIconStylized icon={<GraduationCap/>} title="Ensino Médio" subtitle="Colégio 1° de Maio | 2006 - 2008" badge={false} />
@@ -49,12 +53,10 @@ export default function PageCurriculo() {
                     </AccordionButton>
                   </h2>
                   <AccordionPanel pb={4}>
-                    <ul className='list-disc pl-4 pr-4 ml-4'>
-                      <li>Me capacitando profissionalmente para ser uma Desenvolvedora Full Stack;</li>
-                      <li>Criando portfólio de Aplicações Web;</li>
-                      <li>Ansiosa para iniciar a PÓS TECH Coding & Tech Journey from User to Creator (FIAP+Alura);</li>
-                      <li>Desenvolvo projetos criativos para clientes digitais usarem na internet.</li>
-                    </ul>
+                    <p>
+                    Desenvolvo projetos front-end criativos que proporcionam boas experiências digitais na web,
+                    garantindo consistência e responsividade.
+                    </p>
                   </AccordionPanel>
                 </AccordionItem>
                   
@@ -64,7 +66,7 @@ export default function PageCurriculo() {
                         <Box as="div" flex='1' textAlign='left' className='flex items-center gap-2'>
                           <User className='text-pink-600'/>
                           <div className='flex flex-wrap'>
-                            <span className='font-semibold text-md'>Analista Sênior, Web Designer,</span>
+                            <span className='font-semibold text-md'>Analista II, Front-end,</span>
                             <span className='text-gray-500'>TI | Ecad | 2012 - 2022</span>
                           </div> 
                         </Box>
@@ -72,11 +74,11 @@ export default function PageCurriculo() {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                      <p>Fui responsável pelo desenvolvimento do front-end para o site institucional, intranet, extranet e aplicativos móveis responsivos, 
-                        participando ativamente de redesigns e atualizações tecnológicas. Colaborei no design de conversas e implementação do chatbot baseado na IA da IBM Watson, 
-                        criei manuais para aplicações móveis e web, ofereci suporte SharePoint, e fui responsável pela criação de logos e identidades visuais de aplicações internas. 
-                        Também auxiliei na configuração de uma Rede Social interna. Contribuí para atividades de endomarketing, como semanas temáticas e campanhas sazonais, 
-                        assim como apresentações interativas em Powerpoint para eventos internos/externos à executivos e superintendência.</p>
+                      <p>Responsável pelo desenvolvimento front-end para diversas plataformas da empresa, incluindo o site institucional,
+intranet, extranet e aplicativos móveis responsivos. Estive envolvida de forma ativa em projetos de redesign de
+interface e na implementação de atualizações tecnológicas. Também contribui na equipe que implementou um
+chatbot baseado na inteligência artificial da IBM Watson, sendo responsável pelo design das interações
+conversacionais.</p>
                     </AccordionPanel>
                   </AccordionItem>
 
@@ -97,7 +99,8 @@ export default function PageCurriculo() {
                       <div className='space-y-2'>
                         <h3 className='font-semibold text-md'>Atividades executadas</h3>
                         <ul className='list-disc pl-4 pr-4 ml-4'>
-                          <li>Realizava testes automatizados em uma aplicação desktop. Executava essa aplicação em diversas máquinas virtuais com configurações diferentes e no final relatava aos supervisores o que passava e o que dava erro.</li>
+                          <li>Realizava testes automatizados em uma aplicação desktop e quando necessário implementava novas
+funcionalidades.</li>
                         </ul>
                         <h3 className='font-semibold text-md'>Linguagens exploradas</h3>
                         <ul className='list-disc pl-4 pr-4 ml-4'>
@@ -123,8 +126,9 @@ export default function PageCurriculo() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <div className='space-y-2'>
-                        <p>Participei do desenvolvimento de um sistema automatizado que gerava relatórios em tempo real para o setor envolvido - G&E, Gás & Energia. 
-                          A interface precisava ser visualmente agradável e de fácil compreensão pelos os usuários.</p>
+                        <p>Participei do desenvolvimento de um sistema automatizado que gerava relatórios em tempo real para o setor
+envolvido - G&E, Gás & Energia. A interface precisava ser visualmente agradável e de fácil compreensão pelos os
+usuários.</p>
                         <h3 className='font-semibold text-md'>Atividades executadas</h3>
                         <ul className='list-disc pl-4 pr-4 ml-4'>
                           <li>Palestras de ambientação;</li>
@@ -163,14 +167,14 @@ export default function PageCurriculo() {
                   </Card>
               </div>
               <div>
-                <h2 className='text-pink-600 font-semibold text-xl mt-6 mb-2'>CURSOS</h2> 
+                <h2 className='text-pink-600 font-semibold text-xl mt-6 mb-2'>CURSANDO</h2> 
                 <Card>
                   <CardBody className='space-y-2 '>
                     <Text className='flex gap-2 text-gray-600 items-center'>
-                      <FileCheck className='text-pink-600' />Next.js 13
+                      <FileCheck className='text-pink-600' />Front-end em React <Badge colorScheme='pink'>Ada</Badge>
                     </Text>
                     <Text className='flex gap-2 text-gray-600 items-center'>
-                      <FileClock className='text-pink-600' />JavaScript Completo ES6+ <Badge colorScheme='pink'>Cursando</Badge>
+                      <FileClock className='text-pink-600' />Potência Tech iFood - Programação do Zero <Badge colorScheme='pink'>Dio</Badge>
                     </Text>
                   </CardBody>
                 </Card>
